@@ -8285,6 +8285,10 @@ textarea.form-control-lg {
   margin-top: 4.5rem !important;
 }
 
+.mt-65 {
+  margin-top: 5.5rem !important;
+}
+
 .mt-7 {
   margin-top: 6rem !important;
 }
@@ -8379,6 +8383,10 @@ textarea.form-control-lg {
 
 .mb-6 {
   margin-bottom: 4.5rem !important;
+}
+
+.mb-65 {
+  margin-bottom: 5.5rem !important;
 }
 
 .mb-7 {
@@ -21556,4 +21564,21 @@ footer .widget {
 
 .servicios_texto:hover{
   color: var(--bs-gray-dark);
+}
+
+.img-center {
+  display: block;
+  margin: auto;
+}
+
+.gradient-text {
+  background-image: linear-gradient(45deg, rgb(0, 174, 255), rgb(255, 0, 200)); /* Cambia los colores según tus preferencias rgb(52,58,64) */
+  -webkit-background-clip: text; /* Propiedad específica de Webkit (Chrome, Safari, etc.) */
+  color: transparent; /* Hace el texto transparente para que se muestre el fondo de gradiente */
+}
+
+.gradient-text-sub {
+  background-image: linear-gradient(45deg, rgb(0,17,65), rgb(255, 0, 200)); /* Cambia los colores según tus preferencias rgb(52,58,64) */
+  -webkit-background-clip: text; /* Propiedad específica de Webkit (Chrome, Safari, etc.) */
+  color: transparent; /* Hace el texto transparente para que se muestre el fondo de gradiente */
 }
